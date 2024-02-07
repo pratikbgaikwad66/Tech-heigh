@@ -1,0 +1,467 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+   /* border: 1px solid red; */
+   /* border: 1px solid red;      */
+    
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+
+}
+
+.contain{
+    
+    position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+    width: 100%;
+   
+    height: 100px;
+    
+}
+.bgdark{
+    background-color: rgb(123, 123, 123);
+}
+
+
+.btn-mobi
+{
+    margin-left: 70px ;
+}
+
+.banner_main{
+    
+    background-image: url(images/banner.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn-light{
+
+    border-radius: 5px;
+}
+
+.h1head{
+      font-size: 70px;
+}
+.banner_main{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.btn-first{
+    width: 160px;
+    height: 41px;
+    background-color: azure;
+    border: none;
+}
+.btn-first:hover{
+    color: #ffffff;
+    background-color: rgb(121, 120, 120);
+
+}
+.new-btnt{
+    
+       height: 40px;
+       width: 40px;
+}
+li{
+    text-decoration: none;
+}
+.animal{
+   
+    display: flex;
+    
+}
+.decor{
+    list-style: none;
+      
+}
+.lastci{
+    background-color: black;
+}
+.conthead{
+    display: flex;
+    justify-content: center;
+}
+
+.h1do{
+    font-size: 46px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.first{
+    border: 1px solid;
+    height: 450px;
+    padding: 25px;
+    width: 280px;
+    
+}
+.second{
+    border: 1px solid;
+    height: 450px;
+    padding: 25px;
+   
+}
+.centerul{
+    display: flex;
+    align-items: center;
+}
+.third{
+    border: 1px solid;
+    height: 450px;
+    padding: 25px;
+}
+.fontfa{
+    font-family: 'Poppins', sans-serif;
+}
+
+.fontfa{
+    font-family: sans-serif;
+}
+.readm{
+    width: 120px;
+    height: 40px;
+   
+}
+.button02{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+}
+.lessthan{
+    background-color: rgb(255, 255, 255);
+    width: 70px;
+    height: 70px;
+    margin-top: 70px;
+    border: none;
+    box-shadow: 3px 0 36px rgba(30, 30, 30, 0.2);
+    margin-bottom: 50px;
+
+}
+.lessthan:hover{
+    color: white;
+    background-color: rgb(55, 54, 54);
+}
+.btnless{
+    display: flex;
+    justify-content: center;
+}
+.linediv{
+    display: flex;
+    justify-content: center;
+    
+}
+.newline{
+    border-bottom: 13px solid #ffffff ;
+    width: 90px;
+    
+}
+
+.bgimg{
+    height: 650px;
+ background-position: center;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/about_bg.jpg);
+}
+.discription01{
+ color: #ffffff;
+ text-align: center;
+ margin-top: 70px;
+}
+
+.h2line{
+    border-bottom: 10px solid #060606 ;
+    width: 60px;
+}
+
+
+
+.secondcl{
+  padding-top: 20px;
+    
+}
+
+.bottumbtn{
+    color: #ffffff;
+   background-color: #131313;
+   width: 220px;
+   height: 70px;
+   border: none;
+}
+
+.bottumbtn:hover{
+    color: #ffffff;
+    background-color: rgb(88, 86, 86);
+}
+
+.bottumline{
+    width: 60px;
+    border-bottom: 10px solid white;
+}
+
+.lastbtn{
+    width: 130px;
+    height: 40px;
+    border: none;
+    color: #060606;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+.lastbtn:hover{
+    color: #ffffff;
+    background-color: rgb(34, 30, 30);
+    transition: ease-in all 0.5s;
+}
+
+
+/* .mychoise{
+    height: 500px;
+    display: flex;
+    align-items: center;
+} */
+
+
+.d3description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 370px;
+    box-sizing: border-box;
+    background-color: #f4f3f3;
+    z-index: -1;
+    margin-top: 100px;
+    
+}
+.imgz{
+    display: block;
+    margin-top: 5px;
+    margin-left: 30px;
+    z-index: 1;
+    position: absolute;
+}
+.Clintname{
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+.INPUT02{
+    width: 250px;
+    height: 60px;
+
+}
+.inputms{
+    width: 250px;
+    height: 150px;
+}
+.lessthan02{
+    background-color: rgb(255, 255, 255);
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    border: none;
+    box-shadow: 3px 0 36px rgba(30, 30, 30, 0.2);
+    margin-bottom: 50px;
+
+}
+.lessthan02:hover{
+    color: #ffffff;
+    background-color: #292323;
+}
+
+/* footer{
+      
+   
+} */
+
+.mainfoot{
+    /* margin-top: 200px; */ 
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+.h1foot{
+   font-size: 50px;
+    text-align: center;
+}
+.footinput{
+    width: 300px;
+    height: 50px;
+}
+
+.btnfoot{
+    font-size: 20px;
+    background-color: #090909;
+    height: 50px;
+    width: 200px;
+    border: none;
+    margin-bottom: 100px;
+}
+
+.fontm{
+   
+    font-weight: normal;
+    font-size: 11px;
+    padding: 0;
+}
+.bgco{
+    background-color: #292323;
+}
+.socialico{
+    display: inline-block;
+    padding: 8px;
+   font-size: 30px;
+   color: #ffffff;
+}
+.social01{
+    /* display: flex;
+    justify-content: end; */
+    padding: 10px;
+}
+.lastsocial{
+    align-items: center;
+   text-align: center;
+}
+.uldiv li{
+    line-height: 30px;
+}
+    
+
+
+@media (min-width: 762px){
+    .contain{
+        background: rgba(68, 71, 71, 0.60);
+    }
+
+    .bgdark{
+        background-color: rgba(123, 123, 123, 0);
+    }
+    .secondcl{
+        padding-top: 0px;
+          
+      }
+      .mychoise{
+        height: 500px;
+        display: flex;
+        align-items: center;
+    }
+    .imgz{
+        display: block;
+        margin-top: 50px;
+        margin-left: 30px;
+        z-index: 1;
+        position: absolute;
+    }
+    .d3description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 300px;
+        box-sizing: border-box;
+        background-color: #f4f3f3;
+        z-index: -1;
+        /* margin-top: 100px; */
+        
+    }
+    .Clintname{
+       margin-left: 25vh;
+    }
+    .footinput{
+        width: 300px;
+        height: 70px;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .btnfoot{
+        font-size: 15px;
+        background-color: #060606;
+        height: 70px;
+        width: 140px;
+        
+        
+    }
+    .lastsocial{
+         
+        text-align:unset;
+     }
+
+}
+
+@media (min-width: 992px) {
+    .scontent{
+        margin-left: 32vh;
+    }
+    .content02{
+        padding-left: 150px;
+    }
+    
+.contain{
+    background: rgba(68, 71, 71, 0.60);
+}
+
+.bgdark{
+    background-color: rgba(123, 123, 123, 0);
+}
+.button02{
+    margin-top: 25px;
+}
+.secondcl{
+    padding-top: 0px;
+      
+  }
+  .mychoise{
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.INPUT02{
+    width: 400px;
+    height: 60px;
+}
+.inputms{
+    width: 400px;
+    height: 150px;
+}
+.imgz{
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    z-index: 1;
+    position: absolute;
+}
+.Clintname{
+    margin-left: 5vh;
+ }
+ .footinput{
+    width: 400px;
+    height: 70px;
+    margin-left: 130px;
+    font-size: 20px;
+}
+.btnfoot{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #060606;
+    height: 70px;
+    width: 150px;
+    
+    
+}
+}
